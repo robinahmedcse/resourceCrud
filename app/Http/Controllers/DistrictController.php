@@ -62,7 +62,7 @@ class DistrictController extends Controller
           ]);
           
           if($request->division_id == 0){
-                return redirect()->route('district.create')->with('success','Please select Division');
+                return redirect()->route('upazila.create')->with('success','Please select District');
           }else{
               
               District::create([

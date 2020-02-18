@@ -29,3 +29,9 @@ Route::resource('division','DivisionController');
 
 
 Route::resource('district','DistrictController');
+
+
+
+
+Route::resource('upazila','UpazilaController');
+
