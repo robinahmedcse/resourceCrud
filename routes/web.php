@@ -17,7 +17,15 @@ Route::get('/', function () {
 
 
 
-Route::resource('division','DivisionController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+Route::resource('division','DivisionController');
+
+
+Route::resource('district','DistrictController');
