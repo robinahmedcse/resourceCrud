@@ -41,7 +41,7 @@
     </div>
 @else
       <div class="table-responsive mt-3">
-        <table class="table table-dark table-striped">
+        <table  id="division_table" class="table table-dark table-striped">
             <thead>
                 <tr>
                     <th scope="col">#</th>
